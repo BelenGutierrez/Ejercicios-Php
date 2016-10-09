@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
-Escribe un programa que pinte por pantalla una pirámide rellena a base de asteriscos. La base de la
-pirámide debe estar formada por 9 asteriscos.
+Igual que el programa anterior, pero esta vez la pirámide debe aparecer invertida, con el vértice
+hacia abajo.
 -->
 <html>
     <head>
@@ -13,11 +13,11 @@ pirámide debe estar formada por 9 asteriscos.
         <pre>
             <?php
             echo "<br>";
-            echo "    *  <br>";
-            echo "   ***  <br>";
-            echo "  *****  <br>";
-            echo " *******  <br>";
             echo "*********  <br>";
+            echo " *     * <br>";
+            echo "  *   * <br>";
+            echo "   * * <br>";
+            echo "    *  <br>";
             ?>
         </pre>
     </body>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Escribe un programa que muestre por pantalla 10 palabras en inglés junto a su correspondiente
+traducción al castellano. Las palabras deben estar distribuidas en dos columnas. Utiliza la etiqueta
+<table> de HTML.
 -->
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
         <title></title>
     </head>
     <body>
