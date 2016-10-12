@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Realiza un conversor de euros a pesetas. Ahora la cantidad en euros que se quiere convertir se
+deberá introducir por teclado.
+-->
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+       <div id="container">
+            <div id="header">
+                <h1>Conversor euros a pesetas</h1>
+            </div>
+
+            <div id="content">
+                Por favor, introduzca cantidad de euros <br>
+                <form action="resultado.php" method="post">
+                    <input type="number" name="euro" step="1" autofocus><br>
+                    
+                    <input type="submit" value="convertir">
+                </form>
+                <br><br><br><br>
+            </div>
+             
+            <div id="footer">
+                © Belén Gutierrez
+            </div>
+        </div>
+    </body>
+</html>
