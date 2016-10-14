@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Ejercicio 8
+Amplía el programa anterior para que diga la nota del boletín (insuficiente, suficiente, bien, notable
+o sobresaliente).
+-->
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Boletín de notas</h1>
+            </div>
+
+            <div id="content">
+                <br>
+                <form action="resultado.php" method="get">
+                    Primera nota:<input type="number" step="0.01" min="0" name="primera" required><br>
+                    Segunda nota:<input type="number" step="0.01" min="0" name="segunda" required><br>
+                    Tercera nota:<input type="number" step="0.01" min="0" name="tercera" required><br>
+                    <input type="submit" value="Ok">
+                </form>
+                <br><br><br><br>
+            </div>
+
+            <div id="footer">
+                © Belén Gutierrez
+            </div>
+        </div>
+    </body>
+</html>

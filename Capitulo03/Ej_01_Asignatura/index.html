@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Ejercicio 1
+Escribe un programa que pida por teclado un día de la semana y que diga qué asignatura toca a
+primera hora ese día.
+-->
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Asignatura</h1>
+            </div>
+
+            <div id="content">
+                <br>
+                <div>Introduzca un día de la semana y le diré que asignatura tiene.</div>
+                <form action="resultado.php" method="post">
+                    Día (lunes a viernes)<input type="text" name="dia" autofocus><br>
+
+
+
+                    <input type="submit" value="Ok">
+                </form>
+                <br><br><br><br>
+            </div>
+
+            <div id="footer">
+                © Belén Gutierrez
+            </div>
+        </div>
+    </body>
+</html>
