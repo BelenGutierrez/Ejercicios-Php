@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Ejercicio 10
+Escribe un programa que nos diga el horóscopo a partir del día y el mes de nacimiento.
+-->
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Horóscopo</h1>
+            </div>
+
+            <div id="content">
+                <br>
+                <form action="resultado.php" method="post">
+                    Introduce el día:<input type="number" name="dia" autofocus required><br>
+                    Introduce el mes (en número):<input type="number" name="mes" required><br>
+                    <br>
+                    <input type="submit" value="Ok">
+                </form>
+                <br><br><br><br>
+            </div>
+
+            <div id="footer">
+                © Belén Gutierrez
+            </div>
+        </div>
+    </body>
+</html>

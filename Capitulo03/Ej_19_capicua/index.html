@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Ejercicio 19
+Realiza un programa que diga si un número entero positivo introducido por teclado es capicúa. Se
+permiten números de hasta 5 cifras.
+-->
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Número capicúa</h1>
+            </div>
+
+            <div id="content">
+                <br>
+                <form action="resultado.php" method="post">
+                    Introduce número (max 5 cifras):<input type="number" name="n" step="1" min="-99999" max="99999" autofocus required><br>
+                   
+                    <br><br>
+                    <input type="submit" value="Ok">
+                </form>
+                <br><br><br><br>
+            </div>
+
+            <div id="footer">
+                © Belén Gutierrez
+            </div>
+        </div>
+    </body>
+</html>
