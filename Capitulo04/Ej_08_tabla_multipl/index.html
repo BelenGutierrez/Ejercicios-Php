@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Ejercicio 8
+Muestra la tabla de multiplicar de un número introducido por teclado. El resultado se debe mostrar
+en una tabla ( <table> en HTML).
+-->
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Tabla de multiplicar</h1>
+            </div>
+
+            <div id="content">
+                <br>
+                <form action="resultado.php" method="post">
+                    Introduce número:<input type="number" name="n" step="1" min="-99999" max="99999" autofocus required><br>
+                   
+                    <br><br>
+                    <input type="submit" value="Ok">
+                </form>
+                <br><br><br><br>
+            </div>
+
+            <div id="footer">
+                © Belén Gutierrez
+            </div>
+        </div>
+    </body>
+</html>
