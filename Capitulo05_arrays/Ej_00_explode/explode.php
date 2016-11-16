@@ -26,18 +26,17 @@ and open the template in the editor.
                     $contadorNumeros = 0;
                     $numeroTexto = "";
                 }
-// Muestra los números introducidos
+                // Termina el bucle y pinta resultado
                 if ($contadorNumeros == 6) {
                     $numeroTexto = $numeroTexto . " " . $n; // añade el último número leído
-                    $numeroTexto = substr($numeroTexto, 2); // quita los dos primeros
-// espacios de la cadena
+                    $numeroTexto = substr($numeroTexto, 2); // quita los dos primeros espacios de la cadena
                     $numero = explode(" ", $numeroTexto);
                     echo "Los números introducidos son: ";
                     foreach ($numero as $n) {
                         echo $n, " ";
                     }
                 }
-// Pide número y añade el actual a la cadena
+                // Bucle. Pide número y almacena al final del array
                 if (($contadorNumeros < 6) || (!isset($n))) {
                     ?>
                     <form action="#" method="get">

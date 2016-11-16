@@ -9,7 +9,7 @@ los tres arrays dispuesto en tres columnas.
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="estilo.css" rel="stylesheet" type="text/css" />
+        <link href="/css/estilo.css" rel="stylesheet" type="text/css" />
         <title></title>
     </head>
 
