@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block listado %}
+
+    <hr>
+
+    {% for articulo in articulos %}
+        <article> 
+            <h3>{{ articulo.titulo }}</h3>
+            <img src="../View/img/{{articulo.imagen}}" width="400"><br>
+            <p>{{ articulo.contenido }}</p>
+            <p class="fecha">{{ articulo.fecha_publicacion }}</p><br>
+            <p class="boton"><a href="../Controller/borraArticulo.php?id={{ articulo.id }}">Borrar Artículo</a></p>
+            <p class="boton"><a href="../Controller/modificaArticulo.php?id={{ articulo.id}}">Modificar Artículo</a></p>
+            <hr>
+        </article>
+    {% endfor %}
+{% endblock %}
+
+
+
+
+
+
+
+
+
+

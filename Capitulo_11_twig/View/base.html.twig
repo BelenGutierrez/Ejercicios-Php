@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../View/css/estilo.css" rel="stylesheet" type="text/css" />
+        <link href="../View/css/bootstrap.min.css" rel="stylesheet">
+        <title>Listado de articulos</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Blog de Comidas Argentinas</h1>
+            <a href="../Controller/nuevoArticulo.php">Nuevo artículo</a>
+            <hr>
+        </div>
+        <div id="content">
+
+            {% block listado %}
+            {% endblock %}
+
+        
+        </div>
+        <div id="footer">
+            © Belén Gutierrez
+        </div>
+    </body>
+</html>
+
+
