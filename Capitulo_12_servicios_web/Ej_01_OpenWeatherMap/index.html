@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/css/estilo.css" rel="stylesheet" type="text/css" />
+        <title>The weather</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>The weather</h1>
+            </div>
+
+            <div id="content">
+                
+                <h2>Choose a city</h2>
+                <select name="ciudades" form="ciudad">
+                    <option value="Málaga">Málaga</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Bilbao">Bilbao</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Ibiza">Ibiza</option>
+                </select>
+
+                <form action="weather.php" id="ciudad">
+                    <input type="submit" value="GO">
+                </form>        
+                <br><br>
+            </div>
+
+            <div id="footer">
+                © Belén Gutierrez
+            </div>
+        </div>
+
+    </body>
+</html>
